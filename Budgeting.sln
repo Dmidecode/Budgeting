@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFunctionVSCode", "SimpleFunctionVSCode", "{9D3CFF8B-92CF-4576-80D9-D172741BBDE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D64DC28F-9895-4666-9FFF-F8294E6CFB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFunctionVSCode", "SimpleFunctionVSCode\src\SimpleFunctionVSCode\SimpleFunctionVSCode.csproj", "{EC99189B-7C83-47BA-A283-B1840DA43CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{856D8C8F-4DEC-45C4-8B92-116D3B79C8E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFunctionVSCode.Tests", "SimpleFunctionVSCode\test\SimpleFunctionVSCode.Tests\SimpleFunctionVSCode.Tests.csproj", "{E3240418-8348-48B5-93C1-EB3FD5C90CC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC99189B-7C83-47BA-A283-B1840DA43CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC99189B-7C83-47BA-A283-B1840DA43CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC99189B-7C83-47BA-A283-B1840DA43CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC99189B-7C83-47BA-A283-B1840DA43CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3240418-8348-48B5-93C1-EB3FD5C90CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3240418-8348-48B5-93C1-EB3FD5C90CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3240418-8348-48B5-93C1-EB3FD5C90CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3240418-8348-48B5-93C1-EB3FD5C90CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D64DC28F-9895-4666-9FFF-F8294E6CFB6D} = {9D3CFF8B-92CF-4576-80D9-D172741BBDE6}
+		{EC99189B-7C83-47BA-A283-B1840DA43CF1} = {D64DC28F-9895-4666-9FFF-F8294E6CFB6D}
+		{856D8C8F-4DEC-45C4-8B92-116D3B79C8E0} = {9D3CFF8B-92CF-4576-80D9-D172741BBDE6}
+		{E3240418-8348-48B5-93C1-EB3FD5C90CC3} = {856D8C8F-4DEC-45C4-8B92-116D3B79C8E0}
+	EndGlobalSection
+EndGlobal
